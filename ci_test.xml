@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001744">
+    <testsuite name="tests.LoginTests" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001744">
+      <testsuite name="FirstTest" file="/Applications/MAMP/htdocs/TestRepo/test/unit/FirstTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001744">
+        <testcase name="testTrueAssertsToFalse" class="FirstTest" classname="FirstTest" file="/Applications/MAMP/htdocs/TestRepo/test/unit/FirstTest.php" line="6" assertions="1" time="0.001744"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
