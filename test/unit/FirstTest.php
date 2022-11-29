@@ -9,7 +9,7 @@ class FirstTest extends TestCase
     }
     public function testTrueAssertsToTrue()
     {
-        $this->assertFalse(false);
+        $this->assertFalse(true);
     }
 }
 ?>
