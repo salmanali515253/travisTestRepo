@@ -7,5 +7,9 @@ class FirstTest extends TestCase
     {
         $this->assertFalse(false);
     }
+    public function testTrueAssertsToTrue()
+    {
+        $this->assertFalse(false);
+    }
 }
 ?>
