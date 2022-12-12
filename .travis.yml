@@ -2,4 +2,5 @@ lanuguage: php
 jobs:
   include:
     - stage: test
-        script: echo 'testing time 1 2'
+        script: 
+          - echo 'testing time 1 2'
