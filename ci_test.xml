@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001744">
-    <testsuite name="tests.LoginTests" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001744">
-      <testsuite name="FirstTest" file="/Applications/MAMP/htdocs/TestRepo/test/unit/FirstTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001744">
-        <testcase name="testTrueAssertsToFalse" class="FirstTest" classname="FirstTest" file="/Applications/MAMP/htdocs/TestRepo/test/unit/FirstTest.php" line="6" assertions="1" time="0.001744"/>
-      </testsuite>
-    </testsuite>
+<testsuites name="test suites root">
+  <testsuite failures="0" errors="0" skipped="1" tests="1" time="0.05" name="tests.LoginTests">
+    <properties>
+      <property name="setting1" value="True"/>
+    </properties>
+    <testcase classname="tests.LoginTests" name="test_case_4" time="159">
+      <skipped type="pytest.skip" message="Please skip">
+        skipped by user
+      </skipped>
+    </testcase>
+    <testcase classname="tests.LoginTests" name="test_case_5" time="650">
+    </testcase>
+    <testcase classname="tests.LoginTests" name="test_case_6" time="159">
+      <failure type="pytest.failure" message="Fail due to...">
+        failed due to…
+      </failure>
+    </testcase>
   </testsuite>
 </testsuites>

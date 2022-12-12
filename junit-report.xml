@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.005233">
+    <testsuite name="test.LoginTests" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.005233">
+      <testsuite name="FirstTest" file="/Applications/MAMP/htdocs/travisTestRepo/test/unit/FirstTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.005233">
+        <testcase name="testTrueAssertsToFalse" class="FirstTest" classname="FirstTest" file="/Applications/MAMP/htdocs/travisTestRepo/test/unit/FirstTest.php" line="6" assertions="1" time="0.002946"/>
+        <testcase name="testTrueAssertsToTrue" class="FirstTest" classname="FirstTest" file="/Applications/MAMP/htdocs/travisTestRepo/test/unit/FirstTest.php" line="17" assertions="1" time="0.002287">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">FirstTest::testTrueAssertsToTrue
+Failed asserting that true is false.
+
+/Applications/MAMP/htdocs/travisTestRepo/test/unit/FirstTest.php:20</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
