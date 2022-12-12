@@ -6,3 +6,6 @@ jobs:
     - stage: client
       script:
         - echo 'deploying client!!'
+    - stage: test
+      script:
+        - echo 'test client!!'
