@@ -1,5 +1,5 @@
 lanuguage: php
 jobs:
   include:
-    - stage: "Testing time"
+    - stage: test
       - script: "echo testing time 1 2"
